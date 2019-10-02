@@ -1,0 +1,41 @@
+{
+  "name": "satocsv",
+  "version": "1.0.0",
+  "description": "Create CSV files from SolarAnalyzer data",
+  "main": "SAtoCSV.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sineos/SAtoCSV"
+  },
+  "keywords": [
+    "CSV",
+    "SolarLog",
+    "SolarAnalyzer",
+    "convert",
+    "import"
+  ],
+  "author": "Sineos",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-xo": "*"
+  },
+  "engines": {
+    "node": ">=11.4.0"
+  },
+  "dependencies": {
+    "commander": "^3.0.1",
+    "fast-csv": "^3.4.0",
+    "glob": "^7.1.4"
+  },
+  "eslintConfig": {
+    "extends": "xo/esnext",
+    "rules": {
+      "no-tabs": 0,
+      "no-await-in-loop": 0
+    }
+  }
+}
