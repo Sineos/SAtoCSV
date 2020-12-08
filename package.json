@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "commander": "^3.0.1",
-    "fast-csv": "^3.4.0",
+    "fast-csv": "^4.3.6",
     "glob": "^7.1.4"
   },
   "eslintConfig": {
